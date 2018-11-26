@@ -23,10 +23,6 @@ require_once PUBLIC_PATH . 'conf.init.php';
 require_once PUBLIC_PATH . 'web.config.php';
 
 
-//内网配制
-require_once PUBLIC_PATH . 'inner.config.php';
-
-
 //插件目录
 require_once SYS_CONFIG_PATH . 'plugins.init.php';
 

@@ -11,7 +11,7 @@ if (!defined('RYPDINC')) exit("Request Error!!!");
 class Validate
 {
 
-    //从$_POST中获取值
+    //从$_REQUEST中获取值
     public static function request($key)
     {
         if (!isset($_REQUEST[$key])) {
