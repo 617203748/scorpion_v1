@@ -1,0 +1,56 @@
+/*
+	开发团队：太原锐意鹏达科技有限公司
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 14px/1.6 Arial, Sans-serif;
+}
+
+a:link, a:visited {
+    color: #007ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e40000;
+    text-decoration: underline;
+}
+
+h1 {
+    position: relative;
+    z-index: 2;
+    width: 540px;
+    height: 0;
+    margin: 110px auto 15px;
+    padding: 230px 0 0;
+    overflow: hidden;
+    background-image: url(notfound.jpg);
+    background-repeat: no-repeat;
+}
+
+p.link a {
+    margin-right: 1em;
+}
+
+p.link, dl.texts {
+    width: 540px;
+    margin: 0 auto 15px;
+    color: #505050;
+}
+
+dl.texts {
+    line-height: 2;
+}
+
+dl.texts dd {
+    margin: 0;
+    padding: 0 0 0 15px;
+}
+
+dl.texts ul {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}

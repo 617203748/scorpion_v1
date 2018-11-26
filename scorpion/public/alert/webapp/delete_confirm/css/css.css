@@ -1,0 +1,10 @@
+body,html{height:100%;margin:0;padding:0;font-size:14px;font-family:"微软雅黑"!important;color:#575757;}
+ul,li,p,span,a,img,input,textarea{margin:0;padding:0;list-style:none;color:#6e6e6e;text-decoration:none;border:none;}
+.clear_both{clear:both;}
+.kwindow{width:100%;height:100%;display:none;background:#000;position:fixed;z-index:99999;top:0px;opacity:0.7;filter:alpha(opacity=70);}
+.kwindow_bod{display:none;width:80%;margin:0 auto;top:35%;left:10%;position:fixed;z-index:99999;}
+.kwindow_cont{width:100%;padding:0;background:#fff;height:auto;text-align:center;font-size:14px;/*border-top:2px solid #42ba35;*/border-radius:5px;}
+.kwindow_c{color:#8e8e8e;display:block;font-size:14px;padding:25px 0px;}
+.kwindow_b{border-top:1px solid #f1f1f1;}
+.kwindow_b span{color:#42ba35;width:49%;text-align:center;float:left;padding:13px 0px;}
+.kwindow_l{border-right:1px solid #f1f1f1;} 

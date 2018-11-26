@@ -1,0 +1,117 @@
+/* 编辑器下拉框相关样式 */
+.editTips{
+    padding:5px 0;
+    border-radius: 0!important;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+    max-height: auto;
+    margin:0;
+    height:120px;
+    overflow:auto;
+    background:red;
+    z-index:9999;
+}
+.editTips li{
+    text-align:left;
+    box-sizing:border-box;
+    display:block;
+    width:100%;
+    line-height:1.42857143;
+    margin:1px 0;
+    padding:6px 11px;
+    color:#333;
+    cursor:pointer;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    font-weight:400;
+    line-height:1.42857143;
+    border-bottom:solid 1px #e5e5e5;
+    background:#e5e5e5;
+}
+.editTips li:last-child{
+    border-bottom:none;
+}
+.active{ 
+    background:#fee188!important; 
+} 
+.editTips li.active{ background:#fee188!important; }
+ul,li,textarea,input{text-decoration:none;list-style:none;margin:0;padding:0;box-sizing: border-box;}
+table,tr,th,td{padding:0;margin:0;}
+input{ 
+    outline:none;
+ }
+
+/* table{  
+    border: 1px solid black;  
+    border-collapse: collapse;  
+    width: 500px;  
+}    
+table th {  
+    background-color: #A3BAE9;
+    white-space: nowrap!important;
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;  
+}
+table td{
+    white-space: nowrap!important;
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+}
+ */
+
+/* 覆盖 handsontable 默认样式 */
+textarea{
+    width: auto!important;
+    overflow-y:auto!important;
+    box-sizing: border-box!important;
+    resize: both!important;
+    outline: none;
+    
+}
+.chooseBkBtn{
+
+}
+.handsontable .currentTd{
+    border: 1px solid rgb(82, 146, 247);
+}
+.htJustify{
+    text-align:justify!important;
+}
+.htBold{
+    font-weight:bold!important;
+}
+.htItalic{
+    font-style:italic!important;
+}
+.htUnderline{
+    text-decoration:underline!important;
+}
+.htLeft {
+    text-align: left!important;
+}
+.htCenter {
+    text-align: center!important;
+}
+.htRight {
+    text-align: right!important;
+}
+.htJustify {
+    text-align: justify!important;
+}
+.ColorStyle input {
+    padding: 0;
+    padding-left: 4px;
+    width: 20px;
+    height: 20px;
+    cursor:pointer!important;
+}
+.ColorStyle label{
+    cursor:default;
+}
+.handsontable .currentTd{
+    background:#E5ECF7;
+}
+.templateDialog{
+    margin-top:20px;
+    text-align: center;
+}

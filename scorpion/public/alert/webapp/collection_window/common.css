@@ -1,0 +1,22 @@
+
+/* webapp 弹窗提示 start */
+.ui-widget-header {
+  border: 1px solid #aaaaaa;
+  background: #cccccc url(jqueryui/images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x;
+  color: #222222;
+  font-weight: bold;
+}
+
+#add_collection_window
+{
+  display: none;
+  background: #6e6e6e url(../images/collection_icon.png) no-repeat 10px center;
+  /*padding-left: 60px;*/
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+  font-family:"微软雅黑"!important;
+  text-align:center;
+}
+
+/* webapp 弹窗提示 end */
