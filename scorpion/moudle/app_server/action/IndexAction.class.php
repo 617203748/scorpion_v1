@@ -25,10 +25,28 @@ class IndexAction extends BaseAction
     }
 
     //http://localhost:1235/app_server/index.php?act=index&m=test_db
-    public function test_db()
+    public function test_db_query_one()
     {
-        $admin = $this->model->testDB();
+        $params = array(
+            'id' => 3068171212011077632
+        );
+        $admin = $this->model->testDB_query_one($params);
         echo json_encode($admin);
     }
 
+    public function test_db_query_more()
+    {
+        $admin = $this->model->testDB_query_more();
+        echo json_encode($admin);
+    }
+
+    public function test_db_insert()
+    {
+        $this->model->testDB_insert(array(
+            'id' => Tool::getCustomIdNumber(),
+            'name' => 'name_value'
+        ));
+
+        echo '插入成功';
+    }
 }
