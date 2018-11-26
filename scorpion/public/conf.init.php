@@ -19,7 +19,7 @@ define('DB_PASS', 'root');
 
 // 调整链接引擎 (mysqli | pdo)
 define('DB_DRIVER', 'pdo');
-define('DB_NAME', 'taxi_new');
+define('DB_NAME', 'scorpion');
 
 
 // 是否开启日志

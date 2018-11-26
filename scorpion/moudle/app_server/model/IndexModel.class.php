@@ -14,6 +14,18 @@ class IndexModel extends RYPDModel
     {
         parent::__construct();
     }
+
+    public function testDB()
+    {
+        $sql = "
+            SELECT
+            *
+            FROM
+            test_table
+        ";
+
+        return $this->more(Tool::getPreArr($sql));
+    }
 }
 
 ?>

@@ -18,11 +18,17 @@ class IndexAction extends BaseAction
         $this->model = new IndexModel();
     }
 
-    // 初始化前台界面
+    //http://localhost:1235/app_server/index.php
     public function index()
     {
         $this->display('index');
     }
 
+    //http://localhost:1235/app_server/index.php?act=index&m=test_db
+    public function test_db()
+    {
+        $admin = $this->model->testDB();
+        echo json_encode($admin);
+    }
 
 }
